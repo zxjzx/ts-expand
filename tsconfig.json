@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "strict": false,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "declaration": true,
+        "sourceMap": true,
+        "rootDir": "./src",
+        "outDir": "./out",
+        "stripInternal": true,
+        "allowJs": true
+    },
+    "exclude": ["node_modules", "out"],
+    "include": ["src"]
+}
